@@ -6,6 +6,8 @@ var takeANumber = function(theLine, newPerson) {
      return (`Welcome, ${newPerson} You are number ` + theLine.length + ' in line.');
 };
 
+// takeANumber => Welcome you are number 1
+
 
 var nowServing = function(theLine) {
   if (theLine.length === 0) {
