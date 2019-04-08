@@ -11,6 +11,7 @@ var nowServing = function(theLine) {
   if (theLine.length === 0) {
     return (`There is nobody waiting to be served!`);
   }
+  
   var person = theLine.shift();
   return (`Currently serving ` + person + `.`);
 };
