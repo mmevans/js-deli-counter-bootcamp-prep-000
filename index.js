@@ -1,10 +1,11 @@
 
 
 var num = 0;
+
 var takeANumber = function(theLine) {
-     num++;
-     theLine.push(num)
-     return (`Welcome, You are number ${num}.`);
+   num++;
+   theLine.push(num)
+   return (`Welcome, You are number ${num}.`);
 };
 
 const line = []
