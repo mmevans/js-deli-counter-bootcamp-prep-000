@@ -4,6 +4,7 @@
 var takeANumber = function(theLine) {
      var num = 0;
      num++;
+     theLine.push(num)
      return (`Welcome, You are number ${num}.`);
 };
 
