@@ -13,7 +13,7 @@ console.log(takeANumber(line))
 console.log(takeANumber(line))
 console.log(takeANumber(line))
 
-console.log(line) // => []
+console.log(line) // => [1,2,3]
 
 // takeANumber => Welcome you are number 1
 // takeANumber => Welcome you are number 2
