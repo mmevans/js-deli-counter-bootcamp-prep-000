@@ -1,9 +1,11 @@
 
 
 
-var takeANumber = function(theLine, newPerson) {
-     theLine.push(newPerson);
-     return (`Welcome, ${newPerson} You are number ` + theLine.length + ' in line.');
+var takeANumber = function(theLine, number) {
+     //theLine.push(newPerson)
+     //
+     for(var i = 0; )
+     return (`Welcome, You are number ` ' in line.');
 };
 
 // takeANumber => Welcome you are number 1
