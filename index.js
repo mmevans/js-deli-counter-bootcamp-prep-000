@@ -2,7 +2,6 @@
 
 
 var takeANumber = function(theLine, newPerson) {
-    if (theLine.length > 0);
      theLine.push(newPerson);
      return (`Welcome, ${newPerson} You are number ` + theLine.length + ' in line.');
 };
