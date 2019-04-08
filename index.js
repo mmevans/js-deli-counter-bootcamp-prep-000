@@ -9,11 +9,12 @@ var takeANumber = function(theLine, newPerson) {
 // takeANumber => Welcome you are number 1
 // takeANumber => Welcome you are number 2
 // takeANumber => Welcome you are number 3
-// takeANumber => Welcome you are number 3
 
 // nowServing => Currently serving 1
 // nowServing => Currently serving 2
 // nowServing => Currently serving 3
+
+// takeANumber => Welcome you are number 4
 
 
 var nowServing = function(theLine) {
