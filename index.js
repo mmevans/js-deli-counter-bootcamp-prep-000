@@ -6,11 +6,14 @@ var takeANumber = function(theLine) {
      num++;
      return (`Welcome, You are number ${num}.`);
 };
+
 const line = []
 
 console.log(takeANumber(line))
 console.log(takeANumber(line))
 console.log(takeANumber(line))
+
+console.log(line) // => []
 
 // takeANumber => Welcome you are number 1
 // takeANumber => Welcome you are number 2
